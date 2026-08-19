@@ -1,2 +1,2 @@
-:HL["/apex-parts-demo/_next/static/chunks/177l_73f5iprh.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"parts","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"refroidissement","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"hHwSZfe3eivuqMdUX4-I4"}
+:HL["/apex-parts-demo/_next/static/chunks/132aj7xq35s5a.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"parts","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"refroidissement","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"xke2OWu9CHHfWUh_8tmgy"}
