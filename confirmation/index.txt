@@ -1,0 +1,151 @@
+1:"$Sreact.fragment"
+2:I[39756,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"default"]
+3:I[37457,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"default"]
+4:I[13878,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/3cxbmfl5alggw.js","/apex-parts-demo/_next/static/chunks/3ygsoy45_3xwt.js","/apex-parts-demo/_next/static/chunks/3a_iymccg7-e6.js"],"SearchAutocomplete"]
+5:I[95893,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/3cxbmfl5alggw.js","/apex-parts-demo/_next/static/chunks/3ygsoy45_3xwt.js","/apex-parts-demo/_next/static/chunks/3a_iymccg7-e6.js"],"CartBadge"]
+f:I[68027,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"default",1]
+:HL["/apex-parts-demo/_next/static/chunks/35j5a9w4uotvp.css","style"]
+6:T2511,
+.cart-shell { padding-top: 34px; padding-bottom: 80px; }
+
+.cart-head { margin-bottom: 26px; }
+.cart-head h1 { margin: 0 0 6px; font-size: 32px; letter-spacing: -0.02em; color: var(--ink, #17202a); }
+.cart-head p { margin: 0; color: var(--muted, #737d87); }
+
+.cart-steps { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 26px; padding: 0; list-style: none; font-size: 12px; font-weight: 700; }
+.cart-steps li { display: flex; align-items: center; gap: 8px; color: var(--muted, #737d87); }
+.cart-steps li::after { content: "›"; margin-left: 4px; color: var(--line, #dce1e6); }
+.cart-steps li:last-child::after { content: ""; }
+.cart-steps li[aria-current="step"] { color: var(--red, #d91f2a); }
+.cart-steps li[data-done="true"] { color: var(--ink, #17202a); }
+
+.cart-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 28px; align-items: start; }
+
+.cart-panel { border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); padding: 22px; }
+.cart-panel + .cart-panel { margin-top: 20px; }
+.cart-panel h2 { margin: 0 0 4px; font-size: 19px; color: var(--ink, #17202a); }
+.cart-panel__intro { margin: 0 0 18px; color: var(--muted, #737d87); font-size: 13px; line-height: 1.55; }
+
+.cart-table { width: 100%; border-collapse: collapse; }
+.cart-table caption { text-align: left; padding-bottom: 12px; color: var(--muted, #737d87); font-size: 12px; }
+.cart-table th { text-align: left; padding: 0 0 10px; border-bottom: 1px solid var(--line, #dce1e6); color: var(--muted, #737d87); font-size: 11px; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
+.cart-table td { padding: 16px 0; border-bottom: 1px solid var(--line, #dce1e6); vertical-align: top; }
+.cart-table th.cart-num, .cart-table td.cart-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cart-table td.cart-num { padding-left: 14px; }
+
+.cart-article strong { display: block; color: var(--ink, #17202a); font-size: 14px; }
+.cart-article small { display: block; margin-top: 3px; color: var(--muted, #737d87); font-size: 12px; }
+.cart-article a { color: inherit; text-decoration: none; }
+.cart-article a:hover strong { color: var(--red, #d91f2a); }
+
+.cart-qty { display: inline-flex; align-items: center; border: 1px solid var(--line, #dce1e6); border-radius: 3px; overflow: hidden; }
+.cart-qty button { width: 32px; height: 34px; border: 0; background: var(--surface, #f4f6f8); color: var(--ink, #17202a); font-size: 16px; font-weight: 700; line-height: 1; }
+.cart-qty button:hover:not(:disabled) { background: var(--surface-strong, #e9edf1); }
+.cart-qty button:disabled { opacity: 0.4; cursor: default; }
+.cart-qty input { width: 46px; height: 34px; border: 0; text-align: center; font-variant-numeric: tabular-nums; background: var(--white, #fff); color: var(--ink, #17202a); }
+
+.cart-remove { margin-top: 8px; border: 0; background: none; padding: 0; color: var(--muted, #737d87); font-size: 12px; text-decoration: underline; }
+.cart-remove:hover { color: var(--red, #d91f2a); }
+
+.cart-summary { position: sticky; top: 16px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); padding: 20px; }
+.cart-summary h2 { margin: 0 0 14px; font-size: 16px; color: var(--ink, #17202a); }
+.cart-row { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; font-size: 13px; color: var(--text, #39434d); }
+.cart-row span:last-child { font-variant-numeric: tabular-nums; }
+.cart-row--total { margin-top: 10px; padding-top: 14px; border-top: 1px solid var(--line, #dce1e6); font-size: 18px; font-weight: 800; color: var(--ink, #17202a); }
+.cart-row--muted span { color: var(--muted, #737d87); }
+
+.cart-notice { margin: 14px 0 0; padding: 12px 14px; border-left: 3px solid var(--line, #dce1e6); background: var(--surface, #f4f6f8); color: var(--text, #39434d); font-size: 12.5px; line-height: 1.55; }
+.cart-notice strong { display: block; margin-bottom: 4px; color: var(--ink, #17202a); }
+.cart-notice--warn { border-left-color: var(--amber, #9a5b00); }
+.cart-notice--stop { border-left-color: var(--red, #d91f2a); }
+.cart-notice--ok { border-left-color: var(--green, #18794e); }
+
+.cart-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.cart-fields--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.cart-field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; font-weight: 700; color: var(--text, #39434d); }
+.cart-field span small { display: block; font-weight: 400; color: var(--muted, #737d87); }
+.cart-field input, .cart-field select { height: 44px; padding: 0 10px; border: 1px solid var(--line, #dce1e6); border-radius: 3px; background: var(--white, #fff); color: var(--ink, #17202a); font-weight: 400; }
+.cart-field input:focus-visible, .cart-field select:focus-visible { outline: 2px solid var(--red, #d91f2a); outline-offset: 1px; }
+.cart-field input[readonly] { background: var(--surface-strong, #e9edf1); color: var(--muted, #737d87); }
+.cart-field--full { grid-column: 1 / -1; }
+
+/* Message d'erreur d'un champ : il doit se distinguer de l'aide grise, sinon il
+   se lit comme une indication de plus et le formulaire semble refuser sans dire
+   pourquoi. */
+.cart-field small[role="alert"] { font-weight: 700; color: var(--red, #d91f2a); }
+
+.cart-steps a { color: inherit; text-decoration: none; }
+.cart-steps a:hover { text-decoration: underline; }
+
+.cart-notice code { padding: 1px 4px; border-radius: 2px; background: var(--surface-strong, #e9edf1); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }
+.cart-notice a { color: inherit; }
+
+.cart-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+
+.cart-ghost { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; padding: 0 22px; border: 1px solid var(--line, #dce1e6); border-radius: 3px; background: var(--white, #fff); color: var(--ink, #17202a); font-size: 13px; font-weight: 800; }
+.cart-ghost:hover { border-color: var(--ink, #17202a); }
+.cart-primary { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; padding: 0 22px; border: 1px solid transparent; border-radius: 3px; background: var(--red, #d91f2a); color: #fff; font-size: 13px; font-weight: 800; }
+.cart-primary:hover:not(:disabled) { background: var(--red-dark, #b91620); }
+.cart-primary:disabled, .cart-ghost:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.cart-methods { display: grid; gap: 12px; }
+.cart-method { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; padding: 14px 16px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); cursor: pointer; }
+.cart-method:hover { border-color: var(--ink, #17202a); }
+.cart-method[data-selected="true"] { border-color: var(--red, #d91f2a); box-shadow: inset 0 0 0 1px var(--red, #d91f2a); }
+.cart-method input { margin-top: 3px; }
+.cart-method strong { display: block; color: var(--ink, #17202a); font-size: 14px; }
+.cart-method p { margin: 5px 0 0; color: var(--text, #39434d); font-size: 12.5px; line-height: 1.55; }
+.cart-method[data-deferred="true"] p { color: var(--amber, #9a5b00); }
+
+.cart-vehicle { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 20px; padding: 10px 14px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); font-size: 12.5px; color: var(--text, #39434d); }
+.cart-vehicle strong { color: var(--ink, #17202a); }
+
+.cart-dialog-body { display: grid; gap: 14px; }
+.cart-dialog-line { display: flex; gap: 12px; align-items: baseline; }
+.cart-dialog-line strong { color: var(--ink, #17202a); }
+
+.cart-email { margin-top: 14px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); }
+.cart-email > summary { padding: 12px 16px; font-size: 13px; font-weight: 700; color: var(--ink, #17202a); cursor: pointer; }
+.cart-email pre { margin: 0; padding: 0 16px 16px; overflow-x: auto; white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; line-height: 1.6; color: var(--text, #39434d); }
+
+.cart-recap { margin: 0; padding: 0; list-style: none; font-size: 13px; }
+.cart-recap li { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; border-bottom: 1px solid var(--line, #dce1e6); }
+.cart-recap li:last-child { border-bottom: 0; }
+.cart-recap span:last-child { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+@media (max-width: 1050px) {
+  .cart-layout { grid-template-columns: minmax(0, 1fr); }
+  .cart-summary { position: static; }
+}
+@media (max-width: 760px) {
+  .cart-fields, .cart-fields--two { grid-template-columns: minmax(0, 1fr); }
+  .cart-head h1 { font-size: 25px; }
+}
+@media (max-width: 520px) {
+  .cart-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .cart-table tr { display: grid; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--line, #dce1e6); }
+  .cart-table td { border: 0; padding: 0; }
+  .cart-table td.cart-num { text-align: left; padding-left: 0; }
+  .cart-table td::before { content: attr(data-label) " "; color: var(--muted, #737d87); font-size: 11px; font-weight: 700; }
+  .cart-article::before { content: none !important; }
+}
+d:X
+0:{"P":null,"c":["","confirmation",""],"q":"","i":false,"f":[[["",{"children":["confirmation",{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/apex-parts-demo/_next/static/chunks/35j5a9w4uotvp.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"fr","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[[["$","header",null,{"children":[["$","div",null,{"className":"notice-bar","children":["$","div",null,{"className":"container","children":[["$","div",null,{"children":[["$","span",null,{"children":"Expédition internationale"}],["$","span",null,{"children":"Retours sous 30 jours"}],["$","span",null,{"children":"Paiement sécurisé"}]]}],["$","div",null,{"children":[["$","a",null,{"href":"/parts","children":"Catalogue"}],["$","a",null,{"href":"/garage","children":"Mon garage"}],["$","span",null,{"children":"FR · EUR"}]]}]]}]}],["$","div",null,{"className":"site-header","children":[["$","div",null,{"className":"container header-main","children":[["$","a",null,{"className":"brand-mark","href":"/","aria-label":"GM Performance — accueil","children":[["$","span",null,{"className":"brand-gm","children":"GM"}],["$","span",null,{"className":"brand-name","children":"Performance"}],["$","small",null,{"children":"PARTS · RÉUNION"}]]}],["$","$L4",null,{}],["$","div",null,{"className":"header-actions","children":[["$","a",null,{"href":"/compte","children":[["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":[["$","circle",null,{"cx":"12","cy":"8","r":"4"}],["$","path",null,{"d":"M4 21c0-4 3.6-6 8-6s8 2 8 6"}]]}],["$","span",null,{"children":"Mon compte"}]]}],["$","a",null,{"href":"/compte/favoris","children":[["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"M12 20s-7-4.5-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.5-7 9-7 9Z"}]}],["$","span",null,{"children":"Favoris"}]]}],["$","a",null,{"className":"cart-button","href":"/panier","children":[["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":[["$","path",null,{"d":"M4 5h2l2 10h9l2-7H7"}],["$","circle",null,{"cx":"10","cy":"19","r":"1.3"}],["$","circle",null,{"cx":"17","cy":"19","r":"1.3"}]]}],["$","$L5",null,{"initial":0}],["$","span",null,{"children":"Panier"}]]}]]}]]}],["$","nav",null,{"className":"main-nav","aria-label":"Navigation principale","children":["$","div",null,{"className":"container","children":[["$","a",null,{"className":"shop-button","href":"/parts","children":"Toutes les pièces"}],[["$","a","/parts/suralimentation",{"href":"/parts/suralimentation","children":"Turbo & suralimentation"}],["$","a","/parts/alimentation",{"href":"/parts/alimentation","children":"Injection"}],["$","a","/parts/gestion-moteur",{"href":"/parts/gestion-moteur","children":"Gestion moteur"}],["$","a","/parts/freinage",{"href":"/parts/freinage","children":"Freinage"}],["$","a","/garage",{"href":"/garage","children":"Mon garage"}]],["$","a",null,{"className":"nav-deal","href":"mailto:contact@example.com","children":"Pièce introuvable ? Demandez-la"}]]}]}]]}],null]}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$6"}}],"$L7","$L8"],["$L9","$La","$Lb"],"$Lc"]}],{},null,false,null]},null,false,"$d"]},null,false,null],"$Le",false]],"m":"$undefined","G":["$f",["$L10"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"1Ct4F7EgzssE_BOCWT9bL"}
+11:I[22016,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/3cxbmfl5alggw.js","/apex-parts-demo/_next/static/chunks/3ygsoy45_3xwt.js","/apex-parts-demo/_next/static/chunks/3a_iymccg7-e6.js"],""]
+12:I[70616,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/3cxbmfl5alggw.js","/apex-parts-demo/_next/static/chunks/3ygsoy45_3xwt.js","/apex-parts-demo/_next/static/chunks/3a_iymccg7-e6.js"],"CartConfirmation"]
+13:I[97367,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"ViewportBoundary"]
+18:I[97367,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"MetadataBoundary"]
+7:["$","main",null,{"className":"container cart-shell","children":[["$","nav",null,{"aria-label":"Fil d'Ariane","className":"breadcrumb","children":[["$","$L11",null,{"href":"/","children":"Accueil"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"aria-current":"page","children":"Confirmation"}]]}],["$","ol",null,{"className":"cart-steps","aria-label":"Étapes de la commande","children":[["$","li","panier",{"data-done":"true","children":["$","$L11",null,{"href":"/panier","children":"Panier"}]}],["$","li","paiement",{"data-done":"true","children":["$","$L11",null,{"href":"/paiement","children":"Paiement"}]}],["$","li","confirmation",{"data-done":"false","aria-current":"step","children":["$","span",null,{"children":"Confirmation"}]}]]}],["$","header",null,{"className":"cart-head","children":[["$","h1",null,{"children":"Confirmation de commande"}],["$","p",null,{"children":"Gardez le numéro de commande : il suffit, avec votre adresse e-mail, à suivre l’expédition, même sans compte."}]]}],["$","$L12",null,{}]]}]
+8:["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"container","children":[["$","div",null,{"className":"footer-main","children":[["$","div",null,{"className":"footer-brand","children":[["$","a",null,{"className":"brand-mark brand-mark-light","href":"/","aria-label":"GM Performance — accueil","children":[["$","span",null,{"className":"brand-gm","children":"GM"}],["$","span",null,{"className":"brand-name","children":"Performance"}],["$","small",null,{"children":"PARTS · RÉUNION"}]]}],["$","p",null,{"children":["Parts · Réunion — pièces performance et compétition",". Les prix affichés sont des prix de démonstration, calculés tant que les tarifs fournisseurs ne sont pas chargés : ils changeront."]}]]}],[["$","div","Catalogue",{"className":"footer-links","children":[["$","strong",null,{"children":"Catalogue"}],[["$","a","/parts/suralimentation",{"href":"/parts/suralimentation","children":"Turbo & suralimentation"}],["$","a","/parts/alimentation",{"href":"/parts/alimentation","children":"Injection & alimentation"}],["$","a","/parts/gestion-moteur",{"href":"/parts/gestion-moteur","children":"Gestion moteur ECU"}],["$","a","/parts/freinage",{"href":"/parts/freinage","children":"Freinage"}],["$","a","/parts",{"href":"/parts","children":"Toutes les pièces"}]]]}],["$","div","Mon espace",{"className":"footer-links","children":[["$","strong",null,{"children":"Mon espace"}],[["$","a","/garage",{"href":"/garage","children":"Mon garage"}],["$","a","/compte",{"href":"/compte","children":"Mon compte"}],["$","a","/cart",{"href":"/cart","children":"Mon panier"}]]]}]],["$","div",null,{"className":"footer-links","children":[["$","strong",null,{"children":"Aide"}],["$","a",null,{"href":"mailto:contact@example.com","children":"Nous écrire"}],["$","a",null,{"href":"mailto:contact@example.com?subject=Recherche%20de%20pi%C3%A8ce","children":"Chercher une pièce hors catalogue"}]]}]]}],["$","div",null,{"className":"footer-bottom","children":[["$","span",null,{"children":["© ",2026," ","GMPERFORMANCE REUNION"]}],["$","span",null,{"children":"Prix TTC, hors frais de livraison calculés selon la destination."}]]}]]}]}]
+9:["$","script","script-0",{"src":"/apex-parts-demo/_next/static/chunks/3cxbmfl5alggw.js","async":true,"nonce":"$undefined"}]
+a:["$","script","script-1",{"src":"/apex-parts-demo/_next/static/chunks/3ygsoy45_3xwt.js","async":true,"nonce":"$undefined"}]
+b:["$","script","script-2",{"src":"/apex-parts-demo/_next/static/chunks/3a_iymccg7-e6.js","async":true,"nonce":"$undefined"}]
+c:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]
+e:["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+10:["$","link","0",{"rel":"stylesheet","href":"/apex-parts-demo/_next/static/chunks/35j5a9w4uotvp.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+d:C
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+15:null
+19:[["$","title","0",{"children":"Commande confirmée | GM Performance"}],["$","meta","1",{"name":"description","content":"Récapitulatif de la commande et e-mail de confirmation."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}]]
