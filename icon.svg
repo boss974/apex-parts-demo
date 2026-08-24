@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Favicon GM Performance : les couleurs du theme (navy #0b1118, rouge
+       #d91f2a), le logotype reduit a son monogramme. Un onglet sans icone se
+       lit comme un site inacheve. -->
+  <rect width="64" height="64" rx="12" fill="#0b1118"/>
+  <text x="32" y="41" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" text-anchor="middle" fill="#d91f2a" letter-spacing="-1">GM</text>
+  <rect x="14" y="47" width="36" height="4" fill="#d91f2a"/>
+</svg>
