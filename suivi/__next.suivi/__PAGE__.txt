@@ -1,0 +1,164 @@
+1:"$Sreact.fragment"
+2:I[22016,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/1flwzx3vmmaow.js","/apex-parts-demo/_next/static/chunks/2otcem7uylei1.js"],""]
+3:I[13878,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/1flwzx3vmmaow.js","/apex-parts-demo/_next/static/chunks/2otcem7uylei1.js"],"SearchAutocomplete"]
+4:I[95893,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/1flwzx3vmmaow.js","/apex-parts-demo/_next/static/chunks/2otcem7uylei1.js"],"CartBadge"]
+5:T308a,
+/* --- Outil de tri de l'accueil ------------------------------------------ */
+
+.shop-by { padding: 34px 0 6px; }
+.shop-by__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; }
+.shop-by__tile { display: flex; flex-direction: column; gap: 6px; min-height: 118px; padding: 18px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); box-shadow: var(--shadow-sm, 0 2px 8px rgba(11,17,24,0.07)); transition: border-color 0.15s ease, transform 0.15s ease; }
+.shop-by__tile:hover { border-color: var(--red, #d91f2a); transform: translateY(-2px); }
+.shop-by__tile strong { font-size: 13px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink, #17202a); }
+.shop-by__tile small { color: var(--muted, #737d87); font-size: 12px; line-height: 1.5; }
+.shop-by__tile em { margin-top: auto; font-style: normal; font-size: 12px; font-weight: 800; color: var(--red, #d91f2a); }
+.shop-by__tile--accent { border-left: 4px solid var(--red, #d91f2a); }
+
+/* Bandeau des marques de l'accueil : chaque nom mène à sa page. */
+.brand-list a { display: inline-flex; }
+.brand-list a:hover span { color: var(--red, #d91f2a); }
+
+/* --- Index des marques --------------------------------------------------- */
+
+.brand-index { display: grid; gap: 22px; padding: 22px 0 40px; }
+.brand-index__search { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.brand-index__search label { font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted, #737d87); }
+.brand-index__search input { min-width: min(100%, 320px); min-height: 44px; padding: 0 12px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); color: var(--ink, #17202a); }
+.brand-index__search input:focus-visible { outline: 2px solid var(--red, #d91f2a); outline-offset: 1px; }
+.brand-index__count { color: var(--muted, #737d87); font-size: 13px; }
+
+.brand-index__letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.brand-index__letters a { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; min-height: 34px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); font-size: 13px; font-weight: 800; color: var(--ink, #17202a); }
+.brand-index__letters a:hover { border-color: var(--red, #d91f2a); color: var(--red, #d91f2a); }
+
+.brand-group { display: grid; gap: 12px; scroll-margin-top: 90px; }
+.brand-group__letter { margin: 0; padding-bottom: 6px; border-bottom: 2px solid var(--line, #dce1e6); font-size: 20px; color: var(--ink, #17202a); }
+.brand-group__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+.brand-card { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); }
+.brand-card:hover { border-color: var(--red, #d91f2a); }
+.brand-card strong { font-size: 15px; color: var(--ink, #17202a); }
+.brand-card small { color: var(--muted, #737d87); font-size: 12px; }
+.brand-card--empty { background: var(--surface, #f4f6f8); }
+
+/* --- Blocs « rien à afficher, et voici pourquoi » ------------------------ */
+
+.honest-note { display: grid; gap: 12px; margin: 24px 0 32px; padding: 26px; border: 1px solid var(--line, #dce1e6); border-left: 4px solid var(--red, #d91f2a); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); }
+.honest-note h2 { margin: 0; font-size: 20px; color: var(--ink, #17202a); }
+.honest-note p { margin: 0; max-width: 72ch; color: var(--text, #39434d); line-height: 1.65; }
+.honest-note ul { margin: 0; padding-left: 1.25rem; color: var(--text, #39434d); line-height: 1.6; }
+.honest-note li { padding: 2px 0; }
+.honest-note__actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* --- Guides -------------------------------------------------------------- */
+
+.guide-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; padding: 22px 0 34px; }
+.guide-card { display: flex; flex-direction: column; gap: 8px; padding: 22px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); box-shadow: var(--shadow-sm, 0 2px 8px rgba(11,17,24,0.07)); }
+.guide-card:hover { border-color: var(--red, #d91f2a); }
+.guide-card h2 { margin: 0; font-size: 19px; letter-spacing: -0.01em; color: var(--ink, #17202a); }
+.guide-card p { margin: 0; color: var(--text, #39434d); line-height: 1.6; }
+.guide-card__meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted, #737d87); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.guide-card em { margin-top: auto; font-style: normal; font-size: 13px; font-weight: 800; color: var(--red, #d91f2a); }
+
+.guide-article { display: grid; gap: 26px; max-width: 76ch; padding: 22px 0 44px; }
+.guide-article section { display: grid; gap: 12px; }
+.guide-article h2 { margin: 0; font-size: 22px; letter-spacing: -0.015em; color: var(--ink, #17202a); }
+.guide-article p { margin: 0; color: var(--text, #39434d); line-height: 1.75; }
+.guide-article ul { margin: 0; padding-left: 1.25rem; color: var(--text, #39434d); line-height: 1.7; }
+.guide-article li { padding: 3px 0; }
+.guide-caution { margin: 4px 0 0; padding: 14px 16px; border: 1px solid var(--line, #dce1e6); border-left: 4px solid var(--amber, #9a5b00); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); color: var(--text, #39434d); line-height: 1.6; }
+.guide-caution strong { color: var(--amber, #9a5b00); text-transform: uppercase; font-size: 12px; letter-spacing: 0.08em; display: block; margin-bottom: 4px; }
+
+/* --- Suivi de commande --------------------------------------------------- */
+
+.track-layout { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: 28px; align-items: start; padding: 22px 0 44px; }
+.track-form { display: grid; gap: 14px; padding: 24px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); box-shadow: var(--shadow-sm, 0 2px 8px rgba(11,17,24,0.07)); }
+.track-form label { display: grid; gap: 5px; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted, #737d87); }
+.track-form input { min-height: 44px; padding: 0 12px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); color: var(--ink, #17202a); font-weight: 400; letter-spacing: 0; text-transform: none; }
+.track-form input:focus-visible { outline: 2px solid var(--red, #d91f2a); outline-offset: 1px; }
+.track-form__errors { margin: 0; padding-left: 1.1rem; color: var(--red, #d91f2a); font-size: 13px; line-height: 1.5; }
+
+.track-result { display: grid; gap: 14px; padding: 24px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); }
+.track-result h2 { margin: 0; font-size: 20px; color: var(--ink, #17202a); }
+.track-result dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 18px; margin: 0; }
+.track-result dt { color: var(--muted, #737d87); font-size: 13px; }
+.track-result dd { margin: 0; color: var(--ink, #17202a); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.track-timeline { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; font-size: 12px; font-weight: 800; }
+.track-timeline li { display: flex; align-items: center; gap: 8px; color: var(--muted, #737d87); }
+.track-timeline li::after { content: "›"; margin-left: 4px; color: var(--line, #dce1e6); }
+.track-timeline li:last-child::after { content: ""; }
+.track-timeline li[data-state="done"] { color: var(--ink, #17202a); }
+.track-timeline li[data-state="current"] { color: var(--red, #d91f2a); }
+
+/* --- Favoris, listes et projets ------------------------------------------ */
+
+.fav-layout { display: grid; gap: 22px; padding: 22px 0 44px; }
+.fav-create { display: grid; gap: 12px; padding: 22px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); }
+.fav-create__row { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; }
+.fav-create label { display: grid; gap: 5px; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted, #737d87); }
+.fav-create input, .fav-create select { min-height: 44px; min-width: min(100%, 240px); padding: 0 12px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); color: var(--ink, #17202a); font-weight: 400; letter-spacing: 0; text-transform: none; }
+.fav-create__hints { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; color: var(--muted, #737d87); font-size: 12px; }
+.fav-create__hints button { min-height: 32px; padding: 0 12px; border: 1px dashed var(--line, #dce1e6); border-radius: 999px; background: var(--white, #fff); color: var(--text, #39434d); font-size: 12px; }
+.fav-create__hints button:hover { border-color: var(--red, #d91f2a); color: var(--red, #d91f2a); }
+
+.fav-list { display: grid; gap: 14px; padding: 22px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); }
+.fav-list[data-kind="PROJECT"] { border-left: 4px solid var(--red, #d91f2a); }
+.fav-list__head { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; }
+.fav-list__head h2 { margin: 0; font-size: 19px; color: var(--ink, #17202a); }
+.fav-list__badge { display: inline-block; margin-left: 8px; padding: 2px 8px; border-radius: 999px; background: var(--surface-strong, #e9edf1); color: var(--muted, #737d87); font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; vertical-align: middle; }
+.fav-list__meta { color: var(--muted, #737d87); font-size: 13px; font-variant-numeric: tabular-nums; }
+.fav-list__actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.fav-list__actions button, .fav-list__actions a { min-height: 34px; display: inline-flex; align-items: center; padding: 0 12px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); color: var(--text, #39434d); font-size: 12px; font-weight: 700; }
+.fav-list__actions button:hover, .fav-list__actions a:hover { border-color: var(--red, #d91f2a); color: var(--red, #d91f2a); }
+
+.fav-entries { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.fav-entry { display: grid; grid-template-columns: minmax(0, 1fr) max-content; gap: 10px 16px; align-items: start; padding: 12px 14px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--surface, #f4f6f8); }
+.fav-entry__title { display: grid; gap: 3px; min-width: 0; }
+.fav-entry__title strong { font-size: 14px; color: var(--ink, #17202a); }
+.fav-entry__title small { color: var(--muted, #737d87); font-size: 12px; }
+.fav-entry__aside { display: grid; gap: 6px; justify-items: end; }
+.fav-entry__price { font-size: 15px; font-weight: 800; color: var(--ink, #17202a); font-variant-numeric: tabular-nums; }
+.fav-entry__controls { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.fav-entry__controls select, .fav-entry__controls button { min-height: 32px; padding: 0 10px; border: 1px solid var(--line, #dce1e6); border-radius: var(--radius, 5px); background: var(--white, #fff); color: var(--text, #39434d); font-size: 12px; }
+.fav-entry__controls button:hover { border-color: var(--red, #d91f2a); color: var(--red, #d91f2a); }
+.fav-entry__missing { grid-column: 1 / -1; margin: 0; color: var(--amber, #9a5b00); font-size: 12px; }
+
+/* Cœur des cartes produit : l'état enregistré doit se voir. */
+.favorite[aria-pressed="true"] { color: var(--red, #d91f2a); }
+.favorite[aria-pressed="true"] svg { fill: currentColor; }
+
+@media (max-width: 900px) {
+  .track-layout { grid-template-columns: minmax(0, 1fr); }
+  .fav-entry { grid-template-columns: minmax(0, 1fr); }
+  .fav-entry__aside { justify-items: start; }
+  .fav-entry__controls { justify-content: flex-start; }
+}
+c:X
+11:X
+11:C
+0:{"buildId":"EngqAMKW9wy4aqynAU0qP","data":[{"rsc":["$","$1","c",{"children":[[["$","header",null,{"children":[["$","div",null,{"className":"notice-bar","children":["$","div",null,{"className":"container","children":[["$","div",null,{"children":[["$","span",null,{"children":"Expédition internationale"}],["$","span",null,{"children":"Retours sous 30 jours"}],["$","span",null,{"children":"Paiement sécurisé"}]]}],["$","div",null,{"children":[["$","$L2",null,{"href":"/suivi","children":"Suivi commande"}],["$","$L2",null,{"href":"/contact","children":"Support"}],["$","$L2",null,{"href":"/conditions-de-transport","children":"Livraison"}],["$","$L2",null,{"href":"/compte","children":"Compte"}],["$","span",null,{"children":"FR · EUR"}]]}]]}]}],["$","div",null,{"className":"site-header","children":[["$","div",null,{"className":"container header-main","children":[["$","$L2",null,{"className":"brand-mark","href":"/","aria-label":"GM Performance — accueil","children":[["$","span",null,{"className":"brand-gm","children":"GM"}],["$","span",null,{"className":"brand-name","children":"Performance"}],["$","small",null,{"children":"PARTS · RÉUNION"}]]}],["$","$L3",null,{}],["$","div",null,{"className":"header-actions","children":[["$","$L2",null,{"href":"/compte","children":[["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":[["$","circle",null,{"cx":"12","cy":"8","r":"4"}],["$","path",null,{"d":"M4 21c0-4 3.6-6 8-6s8 2 8 6"}]]}],["$","span",null,{"children":"Mon compte"}]]}],["$","$L2",null,{"href":"/compte/favoris","children":[["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"M12 20s-7-4.5-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.5-7 9-7 9Z"}]}],["$","span",null,{"children":"Favoris"}]]}],["$","$L2",null,{"className":"cart-button","href":"/panier","children":[["$","svg",null,{"viewBox":"0 0 24 24","aria-hidden":"true","children":[["$","path",null,{"d":"M4 5h2l2 10h9l2-7H7"}],["$","circle",null,{"cx":"10","cy":"19","r":"1.3"}],["$","circle",null,{"cx":"17","cy":"19","r":"1.3"}]]}],["$","$L4",null,{"initial":0}],["$","span",null,{"children":"Panier"}]]}]]}]]}],["$","nav",null,{"className":"main-nav","aria-label":"Navigation principale","children":["$","div",null,{"className":"container","children":[["$","$L2",null,{"className":"shop-button","href":"/parts","children":"Toutes les pièces"}],[["$","$L2","/garage",{"href":"/garage","children":"Mon garage"}],["$","$L2","/marques",{"href":"/marques","children":"Marques"}],["$","$L2","/promotions",{"href":"/promotions","children":"Promotions"}],["$","$L2","/meilleures-ventes",{"href":"/meilleures-ventes","children":"Sélection"}],["$","$L2","/guides",{"href":"/guides","children":"Guides"}]],["$","a",null,{"className":"nav-deal","href":"mailto:contact@example.com","children":"Pièce introuvable ? Demandez-la"}]]}]}]]}],null]}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6","$L7"],["$L8","$L9"],"$La"]}],"isPartial":"$@b","staleTime":"$c","varyParams":null},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$c","varyParams":null},{"rsc":"$Lf","isPartial":"$@10","staleTime":"$c","varyParams":"$11"},{"rsc":"$L12","isPartial":"$@13","staleTime":"$c","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@14","rootVaryParams":null,"needsRuntimeRequest":"$@15"}
+16:I[84462,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","/apex-parts-demo/_next/static/chunks/1flwzx3vmmaow.js","/apex-parts-demo/_next/static/chunks/2otcem7uylei1.js"],"OrderTrackingForm"]
+17:I[97367,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"OutletBoundary"]
+18:"$Sreact.suspense"
+1a:I[97367,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"ViewportBoundary"]
+1b:I[97367,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"MetadataBoundary"]
+1c:I[39756,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"default"]
+1d:I[37457,["/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js"],"default"]
+:HL["/apex-parts-demo/_next/static/chunks/35j5a9w4uotvp.css","style"]
+6:["$","main",null,{"className":"container","children":[["$","nav",null,{"aria-label":"Fil d'Ariane","className":"breadcrumb","children":[["$","$L2",null,{"href":"/","children":"Accueil"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"aria-current":"page","children":"Suivi de commande"}]]}],["$","header",null,{"className":"category-head","children":[["$","p",null,{"className":"overline","children":"Sans compte"}],["$","h1",null,{"children":"Suivre ma commande"}],["$","p",null,{"className":"category-intro","children":"Le numéro figurant sur votre e-mail de confirmation et l’adresse e-mail utilisée lors de l’achat suffisent. Aucun compte n’est nécessaire : la commande sans compte est autorisée, donc son suivi doit l’être aussi."}]]}],["$","$L16",null,{}],["$","section",null,{"className":"category-notice","children":[["$","h2",null,{"children":"Ce que cette page sait, et ce qu’elle ne sait pas encore"}],["$","p",null,{"children":["La vitrine est publiée en pages statiques : elle retrouve les commandes passées",["$","strong",null,{"children":" depuis ce navigateur"}],", à partir d’un journal local écrit au moment du paiement. Ce journal ne contient aucune adresse e-mail en clair — seulement une empreinte, comparée à ce que vous saisissez."]}],["$","p",null,{"style":{"marginTop":"0.75rem"},"children":"Pour retrouver une commande depuis n’importe quel appareil, il faut brancher :"}],["$","ul",null,{"style":{"margin":"0.5rem 0 0","paddingLeft":"1.25rem","lineHeight":1.6},"children":[["$","li","L’API commandes, joignable depuis la vitrine : en export statique, aucune requête serveur n’est possible.",{"children":"L’API commandes, joignable depuis la vitrine : en export statique, aucune requête serveur n’est possible."}],["$","li","Le point d’entrée de suivi invité, avec une réponse identique pour une référence inconnue et pour une adresse qui ne correspond pas.",{"children":"Le point d’entrée de suivi invité, avec une réponse identique pour une référence inconnue et pour une adresse qui ne correspond pas."}],["$","li","La limitation du nombre de tentatives par adresse IP, sans laquelle le formulaire devient un moyen d’énumérer les commandes.",{"children":"La limitation du nombre de tentatives par adresse IP, sans laquelle le formulaire devient un moyen d’énumérer les commandes."}],["$","li","Le raccordement transporteur, pour afficher le numéro de suivi et ses étapes.",{"children":"Le raccordement transporteur, pour afficher le numéro de suivi et ses étapes."}]]}],["$","p",null,{"style":{"marginTop":"0.75rem"},"children":["En attendant, répondez à votre e-mail de confirmation ou écrivez à"," ",["$","a",null,{"className":"text-link","href":"mailto:contact@example.com","children":"contact@example.com"}]," ","avec votre numéro de commande : nous répondons avec l’état exact du dossier."]}]]}]]}]
+7:["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"container","children":[["$","div",null,{"className":"footer-main","children":[["$","div",null,{"className":"footer-brand","children":[["$","$L2",null,{"className":"brand-mark brand-mark-light","href":"/","aria-label":"GM Performance — accueil","children":[["$","span",null,{"className":"brand-gm","children":"GM"}],["$","span",null,{"className":"brand-name","children":"Performance"}],["$","small",null,{"children":"PARTS · RÉUNION"}]]}],["$","p",null,{"children":["Parts · Réunion — pièces performance et compétition",". Les prix affichés sont des prix de démonstration, calculés tant que les tarifs fournisseurs ne sont pas chargés : ils changeront."]}]]}],[["$","div","Catalogue",{"className":"footer-links","children":[["$","strong",null,{"children":"Catalogue"}],[["$","$L2","/parts",{"href":"/parts","children":"Toutes les pièces"}],["$","$L2","/marques",{"href":"/marques","children":"Par marque de pièce"}],["$","$L2","/promotions",{"href":"/promotions","children":"Promotions en cours"}],["$","$L2","/meilleures-ventes",{"href":"/meilleures-ventes","children":"La sélection de l’atelier"}],["$","$L2","/guides",{"href":"/guides","children":"Guides techniques"}]]]}],["$","div","Mon espace",{"className":"footer-links","children":[["$","strong",null,{"children":"Mon espace"}],[["$","$L2","/garage",{"href":"/garage","children":"Mon garage"}],["$","$L2","/compte",{"href":"/compte","children":"Mon compte"}],["$","$L2","/compte/favoris",{"href":"/compte/favoris","children":"Mes favoris et projets"}],["$","$L2","/panier",{"href":"/panier","children":"Mon panier"}],["$","$L2","/suivi",{"href":"/suivi","children":"Suivre une commande"}]]]}],["$","div","Aide",{"className":"footer-links","children":[["$","strong",null,{"children":"Aide"}],[["$","$L2","/contact",{"href":"/contact","children":"Nous contacter"}],["$","$L2","/conditions-de-vente",{"href":"/conditions-de-vente","children":"Conditions de vente"}],["$","$L2","/conditions-de-transport",{"href":"/conditions-de-transport","children":"Conditions de transport"}]]]}]],["$","div",null,{"className":"footer-links","children":[["$","strong",null,{"children":"Nous suivre"}],["$","a",null,{"href":"mailto:contact@example.com","children":"Nous écrire"}],["$","a",null,{"href":"mailto:contact@example.com?subject=Recherche%20de%20pi%C3%A8ce","children":"Chercher une pièce hors catalogue"}],[["$","span","Facebook",{"title":"Information attendue du propriétaire","children":["Facebook"," — ","À COMPLÉTER PAR LE PROPRIÉTAIRE"]}],["$","span","Instagram",{"title":"Information attendue du propriétaire","children":["Instagram"," — ","À COMPLÉTER PAR LE PROPRIÉTAIRE"]}]]]}]]}],["$","div",null,{"className":"footer-bottom","children":[["$","span",null,{"children":["© ",2026," ","GMPERFORMANCE REUNION"]}],["$","span",null,{"children":"Prix TTC, hors frais de livraison calculés selon la destination."}]]}]]}]}]
+8:["$","script","script-0",{"src":"/apex-parts-demo/_next/static/chunks/1flwzx3vmmaow.js","async":true}]
+9:["$","script","script-1",{"src":"/apex-parts-demo/_next/static/chunks/2otcem7uylei1.js","async":true}]
+a:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+d:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L1b",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Suivre ma commande | GM Performance"}],["$","meta","1",{"name":"description","content":"Suivez une commande sans compte : le numéro de commande et l’adresse e-mail utilisée à l’achat suffisent."}],["$","meta","2",{"name":"robots","content":"noindex, follow"}],["$","link","3",{"rel":"canonical","href":"/suivi"}]]}]}]}],null]}]
+f:["$","$1","c",{"children":[null,["$","$L1c",null,{"parallelRouterKey":"children","template":["$","$L1d",null,{}]}]]}]
+12:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/apex-parts-demo/_next/static/chunks/35j5a9w4uotvp.css","precedence":"next"}],["$","script","script-0",{"src":"/apex-parts-demo/_next/static/chunks/3jv2ehrx-n-jl.js","async":true}]],["$","html",null,{"lang":"fr","children":["$","body",null,{"children":["$","$L1c",null,{"parallelRouterKey":"children","template":["$","$L1d",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
+19:null
+15:true
+c:300
+c:C
+14:0
+e:"$undefined"
+10:"$undefined"
+13:"$undefined"
+b:"$undefined"
